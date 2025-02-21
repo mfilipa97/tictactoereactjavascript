@@ -87,7 +87,7 @@ const TicTacToe = () => {
                     </motion.h1>
 
                     <div className="text-lg mb-4">
-                        ⏳ <span className="font-bold">Time Left:</span>
+                        ⏳ <span className="font-bold">Time Left: </span>
                         <span className={`text-2xl font-bold ${timer <= 3 ? "text-red-500 shake" : "text-blue-500"}`}>{timer}s</span> 🚨
                     </div>
 
